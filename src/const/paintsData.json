@@ -1,0 +1,156 @@
+{
+  "name": "Tamiya Color Data",
+  "data": {
+    "X": [
+      {
+        "colorCode": 11,
+        "name": "クロームシルバー",
+        "url": "https://tamiyashop.jp/img/goods/L/81511.jpg"
+      },
+      {
+        "colorCode": 18,
+        "name": "セミグロスブラック",
+        "url": "https://tamiyashop.jp/img/goods/L/81518.jpg"
+      },
+      {
+        "colorCode": 24,
+        "name": "クリヤーイエロー",
+        "url": "https://tamiyashop.jp/img/goods/S/81524.jpg"
+      },
+      {
+        "colorCode": 26,
+        "name": "クリヤーオレンジ",
+        "url": "https://tamiyashop.jp/img/goods/S/81526.jpg"
+      },
+      {
+        "colorCode": 31,
+        "name": "チタンゴールド",
+        "url": "https://tamiyashop.jp/img/goods/S/81531.jpg"
+      }
+    ],
+    "XF": [
+      {
+        "colorCode": 2,
+        "name": "フラットホワイト",
+        "url": "https://tamiyashop.jp/img/goods/S/81702.jpg"
+      },
+      {
+        "colorCode": 7,
+        "name": "フラットレッド",
+        "url": "https://tamiyashop.jp/img/goods/S/81707.jpg"
+      },
+      {
+        "colorCode": 16,
+        "name": "フラットアルミ",
+        "url": "https://tamiyashop.jp/img/goods/S/81716.jpg"
+      },
+      {
+        "colorCode": 84,
+        "name": "ダークアイアン",
+        "url": "https://tamiyashop.jp/img/goods/L/81784.gif"
+      }
+    ],
+    "LP": [
+      {
+        "colorCode": 70,
+        "name": "アルミシルバー",
+        "url": "https://tamiyashop.jp/img/goods/S/82170.jpg"
+      },
+      {
+        "colorCode": 5,
+        "name": "セミグロスブラック",
+        "url": "https://tamiyashop.jp/img/goods/L/82105.jpg"
+      },
+      {
+        "colorCode": 19,
+        "name": "ガンメタル",
+        "url": "https://tamiyashop.jp/img/goods/L/82119.jpg"
+      },
+      {
+        "colorCode": 72,
+        "name": "マイカシルバー",
+        "url": "https://tamiyashop.jp/img/goods/S/82172.jpg"
+      },
+      {
+        "colorCode": 7,
+        "name": "ピュアレッド",
+        "url": "https://tamiyashop.jp/img/goods/L/82107.jpg"
+      },
+      {
+        "colorCode": 3,
+        "name": "フラットブラック",
+        "url": "https://tamiyashop.jp/img/goods/L/82103.jpg"
+      },
+      {
+        "colorCode": 11,
+        "name": "シルバー",
+        "url": "https://tamiyashop.jp/img/goods/L/82111.jpg"
+      },
+      {
+        "colorCode": 38,
+        "name": "フラットアルミ",
+        "url": "https://tamiyashop.jp/img/goods/L/82138.jpg"
+      },
+      {
+        "colorCode": 40,
+        "name": "メタリックブラック",
+        "url": "https://tamiyashop.jp/img/goods/L/82140.jpg"
+      },
+      {
+        "colorCode": 44,
+        "name": "メタリックオレンジ",
+        "url": "https://tamiyashop.jp/img/goods/L/82144.jpg"
+      },
+      {
+        "colorCode": 48,
+        "name": "スパークリングシルバー",
+        "url": "https://tamiyashop.jp/img/goods/L/82148.jpg"
+      },
+      {
+        "colorCode": 52,
+        "name": "クリヤーレッド",
+        "url": "https://tamiyashop.jp/img/goods/S/82152.jpg"
+      },
+      {
+        "colorCode": 53,
+        "name": "クリヤーオレンジ",
+        "url": "https://tamiyashop.jp/img/goods/S/82153.jpg"
+      },
+      {
+        "colorCode": 60,
+        "name": "NATOブラック",
+        "url": "https://tamiyashop.jp/img/goods/S/82160.jpg"
+      },
+      {
+        "colorCode": 62,
+        "name": "チタンゴールド",
+        "url": "https://tamiyashop.jp/img/goods/S/82162.jpg"
+      },
+      {
+        "colorCode": 63,
+        "name": "チタンシルバー",
+        "url": "https://tamiyashop.jp/img/goods/S/82163.jpg"
+      },
+      {
+        "colorCode": 67,
+        "name": "スモーク",
+        "url": "https://tamiyashop.jp/img/goods/S/82167.jpg"
+      },
+      {
+        "colorCode": 71,
+        "name": "シャンパンゴールド",
+        "url": "https://tamiyashop.jp/img/goods/S/82171.jpg"
+      },
+      {
+        "colorCode": 75,
+        "name": "バフ",
+        "url": "https://tamiyashop.jp/img/goods/S/82175.jpg"
+      },
+      {
+        "colorCode": 79,
+        "name": "フラットレッド",
+        "url": "https://tamiyashop.jp/img/goods/S/82179.jpg"
+      }
+    ]
+  }
+}
