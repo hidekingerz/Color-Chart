@@ -27,6 +27,7 @@ const TamiyaColor = ({ type, colorList }: TamiyaColorProps): JSX.Element => {
           </ImageListItem>
         ))}
       </ImageList>
+      {colorList.length === 0 && <div>nothing</div>}
     </>
   );
 };
