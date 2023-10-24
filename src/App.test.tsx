@@ -4,6 +4,6 @@ import { App } from "./App.tsx";
 describe("App test", () => {
   it("the title is visible", () => {
     render(<App />);
-    expect(screen.getByText(/Hello Vite \+ React!/i)).toBeInTheDocument();
+    expect(screen.getByText("Tamiya Colors")).toBeInTheDocument();
   });
 });
