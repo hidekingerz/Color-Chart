@@ -75,9 +75,9 @@ function App() {
         <TextField id="color-search" label="Search" value={searchString} onChange={onInputHandler} />
         <Button onClick={() => reset()}>Reset</Button>
       </Stack>
-      {switchState.x && <TamiyaColor type="X" colorList={colors.x} />}
-      {switchState.xf && <TamiyaColor type="XF" colorList={colors.xf} />}
-      {switchState.lp && <TamiyaColor type="LP" colorList={colors.lp} />}
+      {switchState.x && <TamiyaColor prefix="X" colorList={colors.x} />}
+      {switchState.xf && <TamiyaColor prefix="XF" colorList={colors.xf} />}
+      {switchState.lp && <TamiyaColor prefix="LP" colorList={colors.lp} />}
     </div>
   );
 }
