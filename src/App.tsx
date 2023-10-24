@@ -1,4 +1,3 @@
-import "./App.css";
 import { TamiyaColorData } from "./tamiya/types.ts";
 import { Button, FormControlLabel, FormGroup, Stack, Switch, TextField } from "@mui/material";
 import { useState } from "react";
