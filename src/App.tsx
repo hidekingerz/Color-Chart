@@ -1,9 +1,10 @@
 import { TamiyaColorData } from "./tamiya/types.ts";
-import { Button, FormControlLabel, FormGroup, Stack, Switch, TextField } from "@mui/material";
-import { useState } from "react";
+import { FormControlLabel, FormGroup, Switch } from "@mui/material";
+import { ChangeEvent, useState } from "react";
 import { findData, sortData } from "./tamiya/util.ts";
 import paints from "./const/paintsData.json";
 import { TamiyaColor } from "./tamiya/TamiyaColor.tsx";
+import SearchAppBar from "./AppBar.tsx";
 
 type SwitchState = {
   x: boolean;
@@ -17,13 +18,13 @@ type Paints = {
   lp: TamiyaColorData[];
 };
 
-function App() {
-  const defaultPaints: Paints = {
-    x: sortData(paints.data.X),
-    xf: sortData(paints.data.XF),
-    lp: sortData(paints.data.LP),
-  };
+const defaultPaints: Paints = {
+  x: sortData(paints.data.X),
+  xf: sortData(paints.data.XF),
+  lp: sortData(paints.data.LP),
+};
 
+function App() {
   const [searchString, setSearchString] = useState<string>("");
   const [switchState, setSwitchState] = useState<SwitchState>({
     x: true,
@@ -32,7 +33,7 @@ function App() {
   });
   const [colors, setColors] = useState<Paints>(defaultPaints);
 
-  const onInputHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const onInputHandler = (event: ChangeEvent<HTMLInputElement>) => {
     setSearchString(event.target.value);
     setColors({
       x: findData(event.target.value, defaultPaints.x),
@@ -41,7 +42,7 @@ function App() {
     });
   };
 
-  const onChangeSwitchState = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const onChangeSwitchState = (event: ChangeEvent<HTMLInputElement>) => {
     setSwitchState({
       ...switchState,
       [event.target.name]: event.target.checked,
@@ -54,30 +55,27 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <h1>Tamiya Colors</h1>
-      <Stack direction="row" justifyContent="center" alignItems="center" spacing={2}>
-        <FormGroup>
-          <FormControlLabel
-            control={<Switch checked={switchState.x} onChange={onChangeSwitchState} name="x" />}
-            label="X"
-          />
-          <FormControlLabel
-            control={<Switch checked={switchState.xf} onChange={onChangeSwitchState} name="xf" />}
-            label="XF"
-          />
-          <FormControlLabel
-            control={<Switch checked={switchState.lp} onChange={onChangeSwitchState} name="lp" />}
-            label="LP"
-          />
-        </FormGroup>
-        <TextField id="color-search" label="Search" value={searchString} onChange={onInputHandler} />
-        <Button onClick={() => reset()}>Reset</Button>
-      </Stack>
-      {switchState.x && <TamiyaColor prefix="X" colorList={colors.x} />}
-      {switchState.xf && <TamiyaColor prefix="XF" colorList={colors.xf} />}
-      {switchState.lp && <TamiyaColor prefix="LP" colorList={colors.lp} />}
-    </div>
+    <>
+      <SearchAppBar onInputHandler={onInputHandler} onResetHandler={reset} inputValue={searchString} />
+
+      <FormGroup>
+        <FormControlLabel
+          control={<Switch checked={switchState.x} onChange={onChangeSwitchState} name="x" />}
+          label="X"
+        />
+        {switchState.x && <TamiyaColor prefix="X" colorList={colors.x} />}
+        <FormControlLabel
+          control={<Switch checked={switchState.xf} onChange={onChangeSwitchState} name="xf" />}
+          label="XF"
+        />
+        {switchState.xf && <TamiyaColor prefix="XF" colorList={colors.xf} />}
+        <FormControlLabel
+          control={<Switch checked={switchState.lp} onChange={onChangeSwitchState} name="lp" />}
+          label="LP"
+        />
+        {switchState.lp && <TamiyaColor prefix="LP" colorList={colors.lp} />}
+      </FormGroup>
+    </>
   );
 }
 
