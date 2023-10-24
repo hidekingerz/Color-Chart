@@ -10,8 +10,7 @@ export type TamiyaColorProps = {
 const TamiyaColor = ({ prefix, colorList }: TamiyaColorProps): JSX.Element => {
   return (
     <>
-      <h5>{prefix}</h5>
-      <ImageList rowHeight={300} cols={4}>
+      <ImageList cols={6}>
         {colorList.map((item: TamiyaColorData) => (
           <ImageListItem key={item.colorCode}>
             <img src={item.url} alt={item.name} loading="lazy" />
