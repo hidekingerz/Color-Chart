@@ -4,8 +4,43 @@ updates:
     directory: "/"
     versioning-strategy: 'increase'
     schedule:
-      interval: "daily"
+      interval: "weekly"
     reviewers:
       - "hidekingerz"
     labels:
       - "auto-update"
+    groups:
+      typescript:
+        patterns:
+          - "typescript"
+          - "@typescript-eslint*"
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "@types/react"
+          - "@types/react-dom"
+      vite:
+        patterns:
+          - "vite"
+          - "@vitejs"
+      jotai:
+        patterns:
+          - "jotai"
+          - "jotai-devtools"
+      query:
+        patterns:
+          - "@tanstack/react-query"
+      test:
+        patterns:
+          - "@testing-library*"
+          - "jsdom"
+          - "vitest"
+      storybook:
+        patterns:
+          - "@storybook*"
+          - "storybook"
+      ui:
+        patterns:
+          - "@mui*"
+          - "@emotion"
