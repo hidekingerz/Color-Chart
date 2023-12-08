@@ -28,7 +28,7 @@
     "@testing-library/jest-dom": "^6.1.4",
     "date-fns": "^2.30.0",
     "jotai": "^2.6.0",
-    "jotai-devtools": "^0.7.0",
+    "jotai-devtools": "^0.7.1",
     "jsdom": "^22.1.0",
     "lodash": "^4.17.21",
     "prettier": "^3.0.3",
