@@ -1,6 +1,6 @@
 import { describe } from "vitest";
 import { screen, render } from "@src/lib/vitest/test-util.ts";
-import { TamiyaColor } from "./index.tsx";
+import { TamiyaColorImageList } from "./index.tsx";
 
 describe("TamiyaColorのテスト", () => {
   describe("単一データのテスト", () => {
@@ -13,7 +13,7 @@ describe("TamiyaColorのテスト", () => {
           url: "https://www.tamiya.com/english/products/81501/img/81501_01.jpg",
         },
       ];
-      render(<TamiyaColor prefix="X" colorList={testData} />);
+      render(<TamiyaColorImageList prefix="X" colorList={testData} />);
       expect(screen.getByText("White")).toBeInTheDocument();
     });
 
@@ -26,7 +26,7 @@ describe("TamiyaColorのテスト", () => {
           url: "https://www.tamiya.com/english/products/81502/img/81502_01.jpg",
         },
       ];
-      render(<TamiyaColor prefix="X" colorList={testData} />);
+      render(<TamiyaColorImageList prefix="X" colorList={testData} />);
       const imageElement = screen.getByAltText("Red");
       expect(imageElement).toBeInTheDocument();
       expect(imageElement).toHaveAttribute("src", "https://www.tamiya.com/english/products/81502/img/81502_01.jpg");
@@ -48,7 +48,7 @@ describe("TamiyaColorのテスト", () => {
           url: "https://www.tamiya.com/english/products/81504/img/81504_01.jpg",
         },
       ];
-      render(<TamiyaColor prefix="X" colorList={testData} />);
+      render(<TamiyaColorImageList prefix="X" colorList={testData} />);
       const blueImageElement = screen.getByAltText("Blue");
       const yellowImageElement = screen.getByAltText("Yellow");
       expect(blueImageElement).toBeInTheDocument();
@@ -64,7 +64,7 @@ describe("TamiyaColorのテスト", () => {
   describe("データが空の場合", () => {
     it("nothingと表示されること", () => {
       // TamiyaColorコンポーネントをダミーデータを用いてレンダリングし、nothingと表示されることを確認する
-      render(<TamiyaColor prefix="X" colorList={[]} />);
+      render(<TamiyaColorImageList prefix="X" colorList={[]} />);
       expect(screen.getByText("nothing")).toBeInTheDocument();
     });
   });

@@ -3,9 +3,9 @@ import { ChangeEvent, useState } from "react";
 
 import paints from "@src/const/paintsData.json";
 import SearchAppBar from "@src/feature/ColorChart/AppBar";
-import { TamiyaColorData } from "@src/feature/ColorChart/TamiyaColor/types";
-import { findData, sortData } from "@src/feature/ColorChart/TamiyaColor/util.ts";
-import { TamiyaColor } from "@src/feature/ColorChart/TamiyaColor";
+import { TamiyaColorData } from "@src/feature/ColorChart/TamiyaColorImageList/types";
+import { findData, sortData } from "@src/feature/ColorChart/TamiyaColorImageList/util.ts";
+import { TamiyaColorImageList } from "@src/feature/ColorChart/TamiyaColorImageList";
 
 type SwitchState = {
   x: boolean;
@@ -64,17 +64,17 @@ function App() {
           control={<Switch checked={switchState.x} onChange={onChangeSwitchState} name="x" />}
           label="X"
         />
-        {switchState.x && <TamiyaColor prefix="X" colorList={colors.x} />}
+        {switchState.x && <TamiyaColorImageList prefix="X" colorList={colors.x} />}
         <FormControlLabel
           control={<Switch checked={switchState.xf} onChange={onChangeSwitchState} name="xf" />}
           label="XF"
         />
-        {switchState.xf && <TamiyaColor prefix="XF" colorList={colors.xf} />}
+        {switchState.xf && <TamiyaColorImageList prefix="XF" colorList={colors.xf} />}
         <FormControlLabel
           control={<Switch checked={switchState.lp} onChange={onChangeSwitchState} name="lp" />}
           label="LP"
         />
-        {switchState.lp && <TamiyaColor prefix="LP" colorList={colors.lp} />}
+        {switchState.lp && <TamiyaColorImageList prefix="LP" colorList={colors.lp} />}
       </FormGroup>
     </>
   );
