@@ -58,6 +58,13 @@ type SearchAppBarProps = {
   onResetHandler: () => void;
 };
 
+/**
+ * 検索用インプット付きのAppBarコンポーネント
+ * @param {string} inputValue
+ * @param {(event: React.ChangeEvent<HTMLInputElement>) => void} onInputHandler
+ * @param {() => void} onResetHandler
+ * @returns {JSX.Element}
+ */
 export default function SearchAppBar({ inputValue, onInputHandler, onResetHandler }: SearchAppBarProps): JSX.Element {
   return (
     <Box sx={{ flexGrow: 1 }}>
