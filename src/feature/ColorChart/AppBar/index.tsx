@@ -7,7 +7,7 @@ import Typography from "@mui/material/Typography";
 import InputBase from "@mui/material/InputBase";
 
 import SearchIcon from "@mui/icons-material/Search";
-import { Button, IconButton } from "@mui/material";
+import { Button } from "@mui/material";
 import { ChangeEvent } from "react";
 
 const Search = styled("div")(({ theme }) => ({
@@ -58,6 +58,13 @@ type SearchAppBarProps = {
   onResetHandler: () => void;
 };
 
+/**
+ * 検索用インプット付きのAppBarコンポーネント
+ * @param {string} inputValue
+ * @param {(event: React.ChangeEvent<HTMLInputElement>) => void} onInputHandler
+ * @param {() => void} onResetHandler
+ * @returns {JSX.Element}
+ */
 export default function SearchAppBar({ inputValue, onInputHandler, onResetHandler }: SearchAppBarProps): JSX.Element {
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -76,13 +83,12 @@ export default function SearchAppBar({ inputValue, onInputHandler, onResetHandle
               value={inputValue}
               onChange={onInputHandler}
             />
-            <IconButton onClick={onResetHandler}>
-              <SearchIcon />
-            </IconButton>
           </Search>
-          <Button onClick={onResetHandler}>
-            <Typography sx={{ color: "#fff" }}>Reset</Typography>
-          </Button>
+          {inputValue !== "" && (
+            <Button onClick={onResetHandler}>
+              <Typography sx={{ color: "#fff" }}>Reset</Typography>
+            </Button>
+          )}
         </Toolbar>
       </AppBar>
     </Box>

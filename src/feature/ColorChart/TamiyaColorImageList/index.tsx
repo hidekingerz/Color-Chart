@@ -10,12 +10,12 @@ export type TamiyaColorProps = {
 
 /**
  * Tamiyaのカラーリストを表示するためのコンポーネントです。
- * 
+ *
  * @param prefix カラーリストのプレフィックス
  * @param colorList カラーリストの配列
  * @returns TamiyaColorコンポーネントのJSX要素
  */
-const TamiyaColor = ({ prefix, colorList }: TamiyaColorProps): JSX.Element => {
+const TamiyaColorImageList = ({ prefix, colorList }: TamiyaColorProps): JSX.Element => {
   const [cols, setCols] = useState<number>(6);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -50,4 +50,4 @@ const TamiyaColor = ({ prefix, colorList }: TamiyaColorProps): JSX.Element => {
   );
 };
 
-export { TamiyaColor };
+export { TamiyaColorImageList };
