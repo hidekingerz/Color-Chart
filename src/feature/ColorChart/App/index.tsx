@@ -3,9 +3,10 @@ import { ChangeEvent, useState } from "react";
 
 import paints from "@src/const/paintsData.json";
 import SearchAppBar from "@src/feature/ColorChart/AppBar";
-import { TamiyaColorData } from "@src/feature/ColorChart/TamiyaColorImageList/types";
+
 import { findData, sortData } from "@src/feature/ColorChart/TamiyaColorImageList/util.ts";
 import { TamiyaColorForm } from "@src/feature/ColorChart/TamiyaColorForm";
+import { TamiyaColorData } from "@src/feature/ColorChart/types.ts";
 
 type Paints = {
   x: TamiyaColorData[];

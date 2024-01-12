@@ -3,7 +3,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import { TamiyaColorData } from "./types.ts";
 import { useEffect, useRef, useState } from "react";
 
-export type TamiyaColorProps = {
+type TamiyaColorImageListProps = {
   prefix: "X" | "XF" | "LP";
   colorList: TamiyaColorData[];
 };
@@ -15,7 +15,7 @@ export type TamiyaColorProps = {
  * @param colorList カラーリストの配列
  * @returns TamiyaColorコンポーネントのJSX要素
  */
-const TamiyaColorImageList = ({ prefix, colorList }: TamiyaColorProps): JSX.Element => {
+const TamiyaColorImageList = ({ prefix, colorList }: TamiyaColorImageListProps): JSX.Element => {
   const [cols, setCols] = useState<number>(6);
   const ref = useRef<HTMLDivElement>(null);
 
