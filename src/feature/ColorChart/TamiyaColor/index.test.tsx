@@ -60,4 +60,12 @@ describe("TamiyaColorのテスト", () => {
       );
     });
   });
+
+  describe("データが空の場合", () => {
+    it("nothingと表示されること", () => {
+      // TamiyaColorコンポーネントをダミーデータを用いてレンダリングし、nothingと表示されることを確認する
+      render(<TamiyaColor prefix="X" colorList={[]} />);
+      expect(screen.getByText("nothing")).toBeInTheDocument();
+    });
+  });
 });
