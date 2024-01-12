@@ -10,6 +10,7 @@ export default defineConfig({
   plugins: [react({ babel: { plugins: [jotaiDebugLabel, jotaiReactRefresh] } })],
   resolve: {
     extensions: [".mjs", ".js", ".mts", ".ts", ".jsx", ".tsx", ".json"],
+    alias: [{ find: "@src", replacement: `${__dirname}/src/` }],
   },
   server: {
     port: 8080,
