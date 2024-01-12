@@ -1,10 +1,11 @@
-import { TamiyaColorData } from "./tamiya/types.ts";
 import { FormControlLabel, FormGroup, Switch } from "@mui/material";
 import { ChangeEvent, useState } from "react";
-import { findData, sortData } from "./tamiya/util.ts";
-import paints from "./const/paintsData.json";
-import { TamiyaColor } from "./tamiya/TamiyaColor.tsx";
-import SearchAppBar from "./AppBar.tsx";
+
+import paints from "@src/const/paintsData.json";
+import SearchAppBar from "@src/feature/ColorChart/AppBar";
+import { TamiyaColorData } from "@src/feature/ColorChart/TamiyaColor/types";
+import { findData, sortData } from "@src/feature/ColorChart/TamiyaColor/util.ts";
+import { TamiyaColor } from "@src/feature/ColorChart/TamiyaColor";
 
 type SwitchState = {
   x: boolean;
