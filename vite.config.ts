@@ -22,7 +22,7 @@ export default defineConfig({
     assetsDir: "assets",
     assetsInlineLimit: 4096,
     cssCodeSplit: true,
-    sourcemap: true, // prd では不要
+    sourcemap: true,
     emptyOutDir: true,
   },
   test: {
