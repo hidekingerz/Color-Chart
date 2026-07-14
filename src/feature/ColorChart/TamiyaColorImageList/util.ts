@@ -1,5 +1,5 @@
 import _ from "lodash";
-import { TamiyaColorData } from "@src/feature/ColorChart/types.ts";
+import { TamiyaColorData } from "@src/feature/ColorChart/types";
 
 export const findData = (searchWord: string, targetData: TamiyaColorData[]) => {
   return targetData.filter((data: TamiyaColorData) => String(data.colorCode).includes(searchWord));

@@ -1,6 +1,6 @@
 import { describe } from "vitest";
-import { TamiyaColorForm } from "@src/feature/ColorChart/TamiyaColorForm/index.tsx";
-import { render, screen, userEvent } from "@src/lib/vitest/test-util.ts";
+import { TamiyaColorForm } from "@src/feature/ColorChart/TamiyaColorForm/index";
+import { render, screen, userEvent } from "@src/lib/vitest/test-util";
 
 const testData = [
   {

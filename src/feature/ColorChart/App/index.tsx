@@ -1,12 +1,13 @@
-import { FormGroup } from "@mui/material";
+"use client";
+
 import { ChangeEvent, useState } from "react";
 
 import paints from "@src/const/paintsData.json";
 import SearchAppBar from "@src/feature/ColorChart/AppBar";
 
-import { findData, sortData } from "@src/feature/ColorChart/TamiyaColorImageList/util.ts";
+import { findData, sortData } from "@src/feature/ColorChart/TamiyaColorImageList/util";
 import { TamiyaColorForm } from "@src/feature/ColorChart/TamiyaColorForm";
-import { TamiyaColorData } from "@src/feature/ColorChart/types.ts";
+import { TamiyaColorData } from "@src/feature/ColorChart/types";
 
 type Paints = {
   x: TamiyaColorData[];
@@ -42,11 +43,11 @@ function App() {
     <>
       <SearchAppBar onInputHandler={onInputHandler} onResetHandler={reset} inputValue={searchString} />
 
-      <FormGroup>
+      <div className="flex flex-col">
         <TamiyaColorForm colorList={colors.x} label={"X"} />
         <TamiyaColorForm colorList={colors.xf} label={"XF"} />
         <TamiyaColorForm colorList={colors.lp} label={"LP"} />
-      </FormGroup>
+      </div>
     </>
   );
 }

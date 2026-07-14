@@ -1,6 +1,6 @@
 import { describe } from "vitest";
-import { screen, render } from "@src/lib/vitest/test-util.ts";
-import { TamiyaColorImageList } from "./index.tsx";
+import { screen, render } from "@src/lib/vitest/test-util";
+import { TamiyaColorImageList } from "./index";
 
 describe("TamiyaColorのテスト", () => {
   describe("単一データのテスト", () => {
