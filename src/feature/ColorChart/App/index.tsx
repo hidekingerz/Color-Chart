@@ -1,6 +1,5 @@
 "use client";
 
-import { FormGroup } from "@mui/material";
 import { ChangeEvent, useState } from "react";
 
 import paints from "@src/const/paintsData.json";
@@ -44,11 +43,11 @@ function App() {
     <>
       <SearchAppBar onInputHandler={onInputHandler} onResetHandler={reset} inputValue={searchString} />
 
-      <FormGroup>
+      <div className="flex flex-col">
         <TamiyaColorForm colorList={colors.x} label={"X"} />
         <TamiyaColorForm colorList={colors.xf} label={"XF"} />
         <TamiyaColorForm colorList={colors.lp} label={"LP"} />
-      </FormGroup>
+      </div>
     </>
   );
 }

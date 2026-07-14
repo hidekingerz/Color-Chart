@@ -1,64 +1,18 @@
 "use client";
 
-import { styled, alpha } from "@mui/material/styles";
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-
-import Typography from "@mui/material/Typography";
-import InputBase from "@mui/material/InputBase";
-
-import SearchIcon from "@mui/icons-material/Search";
-import { Button } from "@mui/material";
 import { ChangeEvent, JSX } from "react";
-
-const Search = styled("div")(({ theme }) => ({
-  position: "relative",
-  borderRadius: theme.shape.borderRadius,
-  backgroundColor: alpha(theme.palette.common.white, 0.15),
-  "&:hover": {
-    backgroundColor: alpha(theme.palette.common.white, 0.25),
-  },
-  marginLeft: 0,
-  width: "100%",
-  [theme.breakpoints.up("sm")]: {
-    marginLeft: theme.spacing(1),
-    width: "auto",
-  },
-}));
-
-const SearchIconWrapper = styled("div")(({ theme }) => ({
-  padding: theme.spacing(0, 2),
-  height: "100%",
-  position: "absolute",
-  pointerEvents: "none",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-}));
-
-const StyledInputBase = styled(InputBase)(({ theme }) => ({
-  color: "inherit",
-  "& .MuiInputBase-input": {
-    padding: theme.spacing(1, 1, 1, 0),
-    // vertical padding + font size from searchIcon
-    paddingLeft: `calc(1em + ${theme.spacing(4)})`,
-    transition: theme.transitions.create("width"),
-    width: "100%",
-    [theme.breakpoints.up("sm")]: {
-      width: "12ch",
-      "&:focus": {
-        width: "20ch",
-      },
-    },
-  },
-}));
 
 type SearchAppBarProps = {
   inputValue: string;
   onInputHandler: (event: ChangeEvent<HTMLInputElement>) => void;
   onResetHandler: () => void;
 };
+
+const SearchIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6" aria-hidden="true">
+    <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 5L20.49 19l-5-4.99zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+  </svg>
+);
 
 /**
  * 検索用インプット付きのAppBarコンポーネント
@@ -69,30 +23,32 @@ type SearchAppBarProps = {
  */
 export default function SearchAppBar({ inputValue, onInputHandler, onResetHandler }: SearchAppBarProps): JSX.Element {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
-        <Toolbar>
-          <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}>
-            Tamiya Colors
-          </Typography>
-          <Search>
-            <SearchIconWrapper>
-              <SearchIcon />
-            </SearchIconWrapper>
-            <StyledInputBase
-              placeholder="Search…"
-              inputProps={{ "aria-label": "search" }}
-              value={inputValue}
-              onChange={onInputHandler}
-            />
-          </Search>
-          {inputValue !== "" && (
-            <Button onClick={onResetHandler}>
-              <Typography sx={{ color: "#fff" }}>Reset</Typography>
-            </Button>
-          )}
-        </Toolbar>
-      </AppBar>
-    </Box>
+    <header className="bg-[#1976d2] text-white shadow-md">
+      <div className="flex min-h-16 items-center gap-2 px-4 py-2">
+        <h1 className="hidden grow text-xl font-medium sm:block">Tamiya Colors</h1>
+        <div className="relative w-full rounded bg-white/15 transition-colors hover:bg-white/25 sm:ml-2 sm:w-auto">
+          <span className="pointer-events-none absolute inset-y-0 left-0 flex items-center px-4">
+            <SearchIcon />
+          </span>
+          <input
+            type="text"
+            placeholder="Search…"
+            aria-label="search"
+            value={inputValue}
+            onChange={onInputHandler}
+            className="w-full bg-transparent py-2 pl-12 pr-2 text-white placeholder-white/70 outline-none transition-[width] sm:w-[16ch] sm:focus:w-[24ch]"
+          />
+        </div>
+        {inputValue !== "" && (
+          <button
+            type="button"
+            onClick={onResetHandler}
+            className="rounded px-3 py-1.5 text-sm font-medium uppercase text-white transition-colors hover:bg-white/10"
+          >
+            Reset
+          </button>
+        )}
+      </div>
+    </header>
   );
 }

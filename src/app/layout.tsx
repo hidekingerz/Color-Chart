@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { AppRouterCacheProvider } from "@mui/material-nextjs/v16-appRouter";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Tamiya Colors",
@@ -9,9 +9,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
-        <AppRouterCacheProvider>{children}</AppRouterCacheProvider>
-      </body>
+      <body className="bg-white font-sans text-gray-900 antialiased">{children}</body>
     </html>
   );
 }
