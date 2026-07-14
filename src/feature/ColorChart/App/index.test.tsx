@@ -1,5 +1,5 @@
-import { render, screen } from "@src/lib/vitest/test-util.ts";
-import { App } from "./index.tsx";
+import { render, screen } from "@src/lib/vitest/test-util";
+import { App } from "./index";
 import { describe } from "vitest";
 
 describe("App test", () => {

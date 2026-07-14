@@ -1,7 +1,9 @@
+"use client";
+
 import { IconButton, ImageList, ImageListItem, ImageListItemBar } from "@mui/material";
 import InfoIcon from "@mui/icons-material/Info";
-import { TamiyaColorData } from "./types.ts";
-import { useEffect, useRef, useState } from "react";
+import { TamiyaColorData } from "@src/feature/ColorChart/types";
+import { JSX, useEffect, useRef, useState } from "react";
 
 type TamiyaColorImageListProps = {
   prefix: "X" | "XF" | "LP";

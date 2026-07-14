@@ -1,6 +1,6 @@
 import { describe, Mock } from "vitest";
-import { render, screen, userEvent } from "@src/lib/vitest/test-util.ts";
-import SearchAppBar from "@src/feature/ColorChart/AppBar/index.tsx";
+import { render, screen, userEvent } from "@src/lib/vitest/test-util";
+import SearchAppBar from "@src/feature/ColorChart/AppBar/index";
 
 describe("AppBar test", () => {
   afterEach(() => {

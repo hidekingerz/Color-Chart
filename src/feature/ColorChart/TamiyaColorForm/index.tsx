@@ -1,7 +1,9 @@
+"use client";
+
 import { FormControlLabel, Switch } from "@mui/material";
 import { TamiyaColorImageList } from "@src/feature/ColorChart/TamiyaColorImageList";
 import { useState } from "react";
-import { TamiyaColorData } from "@src/feature/ColorChart/TamiyaColorImageList/types.ts";
+import { TamiyaColorData } from "@src/feature/ColorChart/types";
 
 type TamiyaColorFormProps = {
   colorList: TamiyaColorData[];

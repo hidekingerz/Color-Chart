@@ -1,3 +1,5 @@
+"use client";
+
 import { styled, alpha } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -8,7 +10,7 @@ import InputBase from "@mui/material/InputBase";
 
 import SearchIcon from "@mui/icons-material/Search";
 import { Button } from "@mui/material";
-import { ChangeEvent } from "react";
+import { ChangeEvent, JSX } from "react";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
