@@ -3,9 +3,89 @@
   "data": {
     "X": [
       {
+        "colorCode": 1,
+        "name": "ブラック",
+        "url": "https://tamiyashop.jp/img/goods/L/81501.jpg"
+      },
+      {
+        "colorCode": 2,
+        "name": "ホワイト",
+        "url": "https://tamiyashop.jp/img/goods/L/81502.jpg"
+      },
+      {
+        "colorCode": 3,
+        "name": "ロイヤルブルー",
+        "url": "https://tamiyashop.jp/img/goods/L/81503.jpg"
+      },
+      {
+        "colorCode": 4,
+        "name": "ブルー",
+        "url": "https://tamiyashop.jp/img/goods/L/81504.jpg"
+      },
+      {
+        "colorCode": 5,
+        "name": "グリーン",
+        "url": "https://tamiyashop.jp/img/goods/L/81505.jpg"
+      },
+      {
+        "colorCode": 6,
+        "name": "オレンジ",
+        "url": "https://tamiyashop.jp/img/goods/L/81506.jpg"
+      },
+      {
+        "colorCode": 7,
+        "name": "レッド",
+        "url": "https://tamiyashop.jp/img/goods/L/81507.jpg"
+      },
+      {
+        "colorCode": 8,
+        "name": "レモンイエロー",
+        "url": "https://tamiyashop.jp/img/goods/L/81508.jpg"
+      },
+      {
+        "colorCode": 9,
+        "name": "ブラウン",
+        "url": "https://tamiyashop.jp/img/goods/L/81509.jpg"
+      },
+      {
+        "colorCode": 10,
+        "name": "ガンメタル",
+        "url": "https://tamiyashop.jp/img/goods/L/81510.jpg"
+      },
+      {
         "colorCode": 11,
         "name": "クロームシルバー",
         "url": "https://tamiyashop.jp/img/goods/L/81511.jpg"
+      },
+      {
+        "colorCode": 12,
+        "name": "ゴールドリーフ",
+        "url": "https://tamiyashop.jp/img/goods/L/81512.jpg"
+      },
+      {
+        "colorCode": 13,
+        "name": "メタリックブルー",
+        "url": "https://tamiyashop.jp/img/goods/L/81513.jpg"
+      },
+      {
+        "colorCode": 14,
+        "name": "スカイブルー",
+        "url": "https://tamiyashop.jp/img/goods/L/81514.jpg"
+      },
+      {
+        "colorCode": 15,
+        "name": "ライトグリーン",
+        "url": "https://tamiyashop.jp/img/goods/L/81515.jpg"
+      },
+      {
+        "colorCode": 16,
+        "name": "パープル",
+        "url": "https://tamiyashop.jp/img/goods/L/81516.jpg"
+      },
+      {
+        "colorCode": 17,
+        "name": "ピンク",
+        "url": "https://tamiyashop.jp/img/goods/L/81517.jpg"
       },
       {
         "colorCode": 18,
@@ -13,68 +93,453 @@
         "url": "https://tamiyashop.jp/img/goods/L/81518.jpg"
       },
       {
+        "colorCode": 19,
+        "name": "スモーク",
+        "url": "https://tamiyashop.jp/img/goods/L/81519.jpg"
+      },
+      {
+        "colorCode": 21,
+        "name": "フラットベース",
+        "url": "https://tamiyashop.jp/img/goods/L/81521.jpg"
+      },
+      {
+        "colorCode": 22,
+        "name": "クリヤー",
+        "url": "https://tamiyashop.jp/img/goods/L/81522.jpg"
+      },
+      {
+        "colorCode": 23,
+        "name": "クリヤーブルー",
+        "url": "https://tamiyashop.jp/img/goods/L/81523.jpg"
+      },
+      {
         "colorCode": 24,
         "name": "クリヤーイエロー",
-        "url": "https://tamiyashop.jp/img/goods/S/81524.jpg"
+        "url": "https://tamiyashop.jp/img/goods/L/81524.jpg"
+      },
+      {
+        "colorCode": 25,
+        "name": "クリヤーグリーン",
+        "url": "https://tamiyashop.jp/img/goods/L/81525.jpg"
       },
       {
         "colorCode": 26,
         "name": "クリヤーオレンジ",
-        "url": "https://tamiyashop.jp/img/goods/S/81526.jpg"
+        "url": "https://tamiyashop.jp/img/goods/L/81526.jpg"
+      },
+      {
+        "colorCode": 27,
+        "name": "クリヤーレッド",
+        "url": "https://tamiyashop.jp/img/goods/L/81527.jpg"
+      },
+      {
+        "colorCode": 28,
+        "name": "パークグリーン",
+        "url": "https://tamiyashop.jp/img/goods/L/81528.jpg"
       },
       {
         "colorCode": 31,
         "name": "チタンゴールド",
-        "url": "https://tamiyashop.jp/img/goods/S/81531.jpg"
+        "url": "https://tamiyashop.jp/img/goods/L/81531.jpg"
+      },
+      {
+        "colorCode": 32,
+        "name": "チタンシルバー",
+        "url": "https://tamiyashop.jp/img/goods/L/81532.jpg"
+      },
+      {
+        "colorCode": 33,
+        "name": "ブロンズ",
+        "url": "https://tamiyashop.jp/img/goods/L/81533.jpg"
+      },
+      {
+        "colorCode": 34,
+        "name": "メタリックブラウン",
+        "url": "https://tamiyashop.jp/img/goods/L/81534.jpg"
+      },
+      {
+        "colorCode": 35,
+        "name": "セミグロスクリヤー",
+        "url": "https://tamiyashop.jp/img/goods/L/81535.jpg"
       }
     ],
     "XF": [
       {
+        "colorCode": 1,
+        "name": "フラットブラック",
+        "url": "https://tamiyashop.jp/img/goods/L/81701.jpg"
+      },
+      {
         "colorCode": 2,
         "name": "フラットホワイト",
-        "url": "https://tamiyashop.jp/img/goods/S/81702.jpg"
+        "url": "https://tamiyashop.jp/img/goods/L/81702.jpg"
+      },
+      {
+        "colorCode": 3,
+        "name": "フラットイエロー",
+        "url": "https://tamiyashop.jp/img/goods/L/81703.jpg"
+      },
+      {
+        "colorCode": 4,
+        "name": "イエローグリーン",
+        "url": "https://tamiyashop.jp/img/goods/L/81704.jpg"
+      },
+      {
+        "colorCode": 5,
+        "name": "フラットグリーン",
+        "url": "https://tamiyashop.jp/img/goods/L/81705.jpg"
+      },
+      {
+        "colorCode": 6,
+        "name": "コッパー",
+        "url": "https://tamiyashop.jp/img/goods/L/81706.jpg"
       },
       {
         "colorCode": 7,
         "name": "フラットレッド",
-        "url": "https://tamiyashop.jp/img/goods/S/81707.jpg"
+        "url": "https://tamiyashop.jp/img/goods/L/81707.jpg"
+      },
+      {
+        "colorCode": 8,
+        "name": "フラットブルー",
+        "url": "https://tamiyashop.jp/img/goods/L/81708.jpg"
+      },
+      {
+        "colorCode": 9,
+        "name": "ハルレッド",
+        "url": "https://tamiyashop.jp/img/goods/L/81709.jpg"
+      },
+      {
+        "colorCode": 10,
+        "name": "フラットブラウン",
+        "url": "https://tamiyashop.jp/img/goods/L/81710.jpg"
+      },
+      {
+        "colorCode": 11,
+        "name": "暗緑色",
+        "url": "https://tamiyashop.jp/img/goods/L/81711.jpg"
+      },
+      {
+        "colorCode": 12,
+        "name": "明灰白色",
+        "url": "https://tamiyashop.jp/img/goods/L/81712.jpg"
+      },
+      {
+        "colorCode": 13,
+        "name": "濃緑色",
+        "url": "https://tamiyashop.jp/img/goods/L/81713.jpg"
+      },
+      {
+        "colorCode": 14,
+        "name": "明灰緑色",
+        "url": "https://tamiyashop.jp/img/goods/L/81714.jpg"
+      },
+      {
+        "colorCode": 15,
+        "name": "フラットフレッシュ",
+        "url": "https://tamiyashop.jp/img/goods/L/81715.jpg"
       },
       {
         "colorCode": 16,
         "name": "フラットアルミ",
-        "url": "https://tamiyashop.jp/img/goods/S/81716.jpg"
+        "url": "https://tamiyashop.jp/img/goods/L/81716.jpg"
+      },
+      {
+        "colorCode": 17,
+        "name": "シーブルー",
+        "url": "https://tamiyashop.jp/img/goods/L/81717.jpg"
+      },
+      {
+        "colorCode": 18,
+        "name": "ミディアムブルー",
+        "url": "https://tamiyashop.jp/img/goods/L/81718.jpg"
+      },
+      {
+        "colorCode": 19,
+        "name": "スカイグレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/81719.jpg"
+      },
+      {
+        "colorCode": 20,
+        "name": "ミディアムグレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/81720.jpg"
+      },
+      {
+        "colorCode": 21,
+        "name": "スカイ",
+        "url": "https://tamiyashop.jp/img/goods/L/81721.jpg"
+      },
+      {
+        "colorCode": 22,
+        "name": "RLM グレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/81722.jpg"
+      },
+      {
+        "colorCode": 23,
+        "name": "ライトブルー",
+        "url": "https://tamiyashop.jp/img/goods/L/81723.jpg"
+      },
+      {
+        "colorCode": 24,
+        "name": "ダークグレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/81724.jpg"
+      },
+      {
+        "colorCode": 25,
+        "name": "ライトシーグレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/81725.jpg"
+      },
+      {
+        "colorCode": 26,
+        "name": "ディープグリーン",
+        "url": "https://tamiyashop.jp/img/goods/L/81726.jpg"
+      },
+      {
+        "colorCode": 27,
+        "name": "ブラックグリーン",
+        "url": "https://tamiyashop.jp/img/goods/L/81727.jpg"
+      },
+      {
+        "colorCode": 28,
+        "name": "ダークコッパー",
+        "url": "https://tamiyashop.jp/img/goods/L/81728.jpg"
+      },
+      {
+        "colorCode": 49,
+        "name": "カーキ",
+        "url": "https://tamiyashop.jp/img/goods/L/81749.jpg"
+      },
+      {
+        "colorCode": 50,
+        "name": "フィールドブルー",
+        "url": "https://tamiyashop.jp/img/goods/L/81750.jpg"
+      },
+      {
+        "colorCode": 51,
+        "name": "カーキドラブ",
+        "url": "https://tamiyashop.jp/img/goods/L/81751.jpg"
+      },
+      {
+        "colorCode": 52,
+        "name": "フラットアース",
+        "url": "https://tamiyashop.jp/img/goods/L/81752.jpg"
+      },
+      {
+        "colorCode": 53,
+        "name": "ニュートラルグレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/81753.jpg"
+      },
+      {
+        "colorCode": 54,
+        "name": "ダークシーグレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/81754.jpg"
+      },
+      {
+        "colorCode": 55,
+        "name": "デッキタン",
+        "url": "https://tamiyashop.jp/img/goods/L/81755.jpg"
+      },
+      {
+        "colorCode": 56,
+        "name": "メタリックグレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/81756.jpg"
+      },
+      {
+        "colorCode": 57,
+        "name": "バフ",
+        "url": "https://tamiyashop.jp/img/goods/L/81757.jpg"
+      },
+      {
+        "colorCode": 58,
+        "name": "オリーブグリーン",
+        "url": "https://tamiyashop.jp/img/goods/L/81758.jpg"
+      },
+      {
+        "colorCode": 59,
+        "name": "デザートイエロー",
+        "url": "https://tamiyashop.jp/img/goods/L/81759.jpg"
+      },
+      {
+        "colorCode": 60,
+        "name": "ダークイエロー",
+        "url": "https://tamiyashop.jp/img/goods/L/81760.jpg"
+      },
+      {
+        "colorCode": 61,
+        "name": "ダークグリーン",
+        "url": "https://tamiyashop.jp/img/goods/L/81761.jpg"
+      },
+      {
+        "colorCode": 62,
+        "name": "オリーブドラブ",
+        "url": "https://tamiyashop.jp/img/goods/L/81762.jpg"
+      },
+      {
+        "colorCode": 63,
+        "name": "ジャーマングレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/81763.jpg"
+      },
+      {
+        "colorCode": 64,
+        "name": "レッドブラウン",
+        "url": "https://tamiyashop.jp/img/goods/L/81764.jpg"
+      },
+      {
+        "colorCode": 65,
+        "name": "フィールドグレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/81765.jpg"
+      },
+      {
+        "colorCode": 66,
+        "name": "ライトグレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/81766.jpg"
+      },
+      {
+        "colorCode": 67,
+        "name": "NATOグリーン",
+        "url": "https://tamiyashop.jp/img/goods/L/81767.jpg"
+      },
+      {
+        "colorCode": 68,
+        "name": "NATOブラウン",
+        "url": "https://tamiyashop.jp/img/goods/L/81768.jpg"
+      },
+      {
+        "colorCode": 69,
+        "name": "NATOブラック",
+        "url": "https://tamiyashop.jp/img/goods/L/81769.jpg"
+      },
+      {
+        "colorCode": 70,
+        "name": "暗緑色2",
+        "url": "https://tamiyashop.jp/img/goods/L/81770.jpg"
+      },
+      {
+        "colorCode": 71,
+        "name": "コックピット色 （日本海軍）",
+        "url": "https://tamiyashop.jp/img/goods/L/81771.jpg"
+      },
+      {
+        "colorCode": 72,
+        "name": "茶色 （陸上自衛隊）",
+        "url": "https://tamiyashop.jp/img/goods/L/81772.jpg"
+      },
+      {
+        "colorCode": 73,
+        "name": "濃緑色 （陸上自衛隊）",
+        "url": "https://tamiyashop.jp/img/goods/L/81773.jpg"
+      },
+      {
+        "colorCode": 74,
+        "name": "OD色（陸上自衛隊）",
+        "url": "https://tamiyashop.jp/img/goods/L/81774.jpg"
+      },
+      {
+        "colorCode": 75,
+        "name": "呉海軍工廠グレイ（日本海軍）",
+        "url": "https://tamiyashop.jp/img/goods/L/81775.jpg"
+      },
+      {
+        "colorCode": 76,
+        "name": "灰緑色（日本海軍）",
+        "url": "https://tamiyashop.jp/img/goods/L/81776.jpg"
+      },
+      {
+        "colorCode": 77,
+        "name": "佐世保海軍工廠グレイ(日本海軍)",
+        "url": "https://tamiyashop.jp/img/goods/L/81777.jpg"
+      },
+      {
+        "colorCode": 78,
+        "name": "木甲板色",
+        "url": "https://tamiyashop.jp/img/goods/L/81778.jpg"
+      },
+      {
+        "colorCode": 79,
+        "name": "リノリウム甲板色",
+        "url": "https://tamiyashop.jp/img/goods/L/81779.jpg"
+      },
+      {
+        "colorCode": 80,
+        "name": "ロイヤルライトグレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/81780.jpg"
+      },
+      {
+        "colorCode": 81,
+        "name": "ダークグリーン2 （イギリス空軍）",
+        "url": "https://tamiyashop.jp/img/goods/L/81781.gif"
+      },
+      {
+        "colorCode": 82,
+        "name": "オーシャングレイ2 （イギリス空軍）",
+        "url": "https://tamiyashop.jp/img/goods/L/81782.gif"
+      },
+      {
+        "colorCode": 83,
+        "name": "ミディアムシーグレイ2 （イギリス空軍）",
+        "url": "https://tamiyashop.jp/img/goods/L/81783.gif"
       },
       {
         "colorCode": 84,
-        "name": "ダークアイアン",
+        "name": "ダークアイアン （履帯色）",
         "url": "https://tamiyashop.jp/img/goods/L/81784.gif"
+      },
+      {
+        "colorCode": 85,
+        "name": "ラバーブラック",
+        "url": "https://tamiyashop.jp/img/goods/L/81785.gif"
+      },
+      {
+        "colorCode": 86,
+        "name": "フラットクリヤー",
+        "url": "https://tamiyashop.jp/img/goods/L/81786.jpg"
+      },
+      {
+        "colorCode": 87,
+        "name": "舞鶴海軍工廠グレイ (日本海軍)",
+        "url": "https://tamiyashop.jp/img/goods/L/81787.jpg"
+      },
+      {
+        "colorCode": 88,
+        "name": "ダークイエロー2（ドイツ陸軍）",
+        "url": "https://tamiyashop.jp/img/goods/L/81788.jpg"
+      },
+      {
+        "colorCode": 89,
+        "name": "ダークグリーン2(ドイツ陸軍)",
+        "url": "https://tamiyashop.jp/img/goods/L/81789.jpg"
+      },
+      {
+        "colorCode": 90,
+        "name": "レッドブラウン2（ドイツ陸軍）",
+        "url": "https://tamiyashop.jp/img/goods/L/81790.jpg"
+      },
+      {
+        "colorCode": 91,
+        "name": "横須賀海軍工廠グレイ (日本海軍)",
+        "url": "https://tamiyashop.jp/img/goods/L/81791.jpg"
+      },
+      {
+        "colorCode": 92,
+        "name": "イエローブラウン (DAK 1941～)",
+        "url": "https://tamiyashop.jp/img/goods/L/81792.jpg"
+      },
+      {
+        "colorCode": 93,
+        "name": "ライトブラウン (DAK 1942～)",
+        "url": "https://tamiyashop.jp/img/goods/L/81793.jpg"
       }
     ],
     "LP": [
       {
-        "colorCode": 70,
-        "name": "アルミシルバー",
-        "url": "https://tamiyashop.jp/img/goods/S/82170.jpg"
+        "colorCode": 1,
+        "name": "ブラック",
+        "url": "https://tamiyashop.jp/img/goods/L/82101.jpg"
       },
       {
-        "colorCode": 5,
-        "name": "セミグロスブラック",
-        "url": "https://tamiyashop.jp/img/goods/L/82105.jpg"
-      },
-      {
-        "colorCode": 19,
-        "name": "ガンメタル",
-        "url": "https://tamiyashop.jp/img/goods/L/82119.jpg"
-      },
-      {
-        "colorCode": 72,
-        "name": "マイカシルバー",
-        "url": "https://tamiyashop.jp/img/goods/S/82172.jpg"
-      },
-      {
-        "colorCode": 7,
-        "name": "ピュアレッド",
-        "url": "https://tamiyashop.jp/img/goods/L/82107.jpg"
+        "colorCode": 2,
+        "name": "ホワイト",
+        "url": "https://tamiyashop.jp/img/goods/L/82102.jpg"
       },
       {
         "colorCode": 3,
@@ -82,9 +547,169 @@
         "url": "https://tamiyashop.jp/img/goods/L/82103.jpg"
       },
       {
+        "colorCode": 4,
+        "name": "フラットホワイト",
+        "url": "https://tamiyashop.jp/img/goods/L/82104.jpg"
+      },
+      {
+        "colorCode": 5,
+        "name": "セミグロスブラック",
+        "url": "https://tamiyashop.jp/img/goods/L/82105.jpg"
+      },
+      {
+        "colorCode": 6,
+        "name": "ピュアブルー",
+        "url": "https://tamiyashop.jp/img/goods/L/82106.jpg"
+      },
+      {
+        "colorCode": 7,
+        "name": "ピュアレッド",
+        "url": "https://tamiyashop.jp/img/goods/L/82107.jpg"
+      },
+      {
+        "colorCode": 8,
+        "name": "ピュアイエロー",
+        "url": "https://tamiyashop.jp/img/goods/L/82108.jpg"
+      },
+      {
+        "colorCode": 9,
+        "name": "クリヤー",
+        "url": "https://tamiyashop.jp/img/goods/L/82109.jpg"
+      },
+      {
         "colorCode": 11,
         "name": "シルバー",
         "url": "https://tamiyashop.jp/img/goods/L/82111.jpg"
+      },
+      {
+        "colorCode": 12,
+        "name": "呉海軍工廠グレイ (日本海軍)",
+        "url": "https://tamiyashop.jp/img/goods/L/82112.jpg"
+      },
+      {
+        "colorCode": 13,
+        "name": "佐世保海軍工廠グレイ (日本海軍)",
+        "url": "https://tamiyashop.jp/img/goods/L/82113.jpg"
+      },
+      {
+        "colorCode": 14,
+        "name": "舞鶴海軍工廠グレイ (日本海軍)",
+        "url": "https://tamiyashop.jp/img/goods/L/82114.jpg"
+      },
+      {
+        "colorCode": 15,
+        "name": "横須賀海軍工廠グレイ (日本海軍)",
+        "url": "https://tamiyashop.jp/img/goods/L/82115.jpg"
+      },
+      {
+        "colorCode": 16,
+        "name": "木甲板色",
+        "url": "https://tamiyashop.jp/img/goods/L/82116.jpg"
+      },
+      {
+        "colorCode": 17,
+        "name": "リノリウム甲板色",
+        "url": "https://tamiyashop.jp/img/goods/L/82117.jpg"
+      },
+      {
+        "colorCode": 18,
+        "name": "ダルレッド",
+        "url": "https://tamiyashop.jp/img/goods/L/82118.jpg"
+      },
+      {
+        "colorCode": 19,
+        "name": "ガンメタル",
+        "url": "https://tamiyashop.jp/img/goods/L/82119.jpg"
+      },
+      {
+        "colorCode": 20,
+        "name": "ライトガンメタル",
+        "url": "https://tamiyashop.jp/img/goods/L/82120.jpg"
+      },
+      {
+        "colorCode": 21,
+        "name": "イタリアンレッド",
+        "url": "https://tamiyashop.jp/img/goods/L/82121.jpg"
+      },
+      {
+        "colorCode": 22,
+        "name": "フラットベース",
+        "url": "https://tamiyashop.jp/img/goods/L/82122.jpg"
+      },
+      {
+        "colorCode": 23,
+        "name": "フラットクリヤー",
+        "url": "https://tamiyashop.jp/img/goods/L/82123.jpg"
+      },
+      {
+        "colorCode": 24,
+        "name": "セミグロスクリヤー",
+        "url": "https://tamiyashop.jp/img/goods/L/82124.jpg"
+      },
+      {
+        "colorCode": 25,
+        "name": "茶色(陸上自衛隊)",
+        "url": "https://tamiyashop.jp/img/goods/L/82125.jpg"
+      },
+      {
+        "colorCode": 26,
+        "name": "濃緑色(陸上自衛隊)",
+        "url": "https://tamiyashop.jp/img/goods/L/82126.jpg"
+      },
+      {
+        "colorCode": 27,
+        "name": "ジャーマングレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/82127.jpg"
+      },
+      {
+        "colorCode": 28,
+        "name": "オリーブドラブ",
+        "url": "https://tamiyashop.jp/img/goods/L/82128.jpg"
+      },
+      {
+        "colorCode": 29,
+        "name": "オリーブドラブ2",
+        "url": "https://tamiyashop.jp/img/goods/L/82129.jpg"
+      },
+      {
+        "colorCode": 30,
+        "name": "ライトサンド",
+        "url": "https://tamiyashop.jp/img/goods/L/82130.jpg"
+      },
+      {
+        "colorCode": 31,
+        "name": "暗緑色2(日本海軍)",
+        "url": "https://tamiyashop.jp/img/goods/L/82131.jpg"
+      },
+      {
+        "colorCode": 32,
+        "name": "明灰白色(日本海軍)",
+        "url": "https://tamiyashop.jp/img/goods/L/82132.jpg"
+      },
+      {
+        "colorCode": 33,
+        "name": "灰緑色(日本海軍)",
+        "url": "https://tamiyashop.jp/img/goods/L/82133.jpg"
+      },
+      {
+        "colorCode": 34,
+        "name": "ライトグレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/82134.jpg"
+      },
+      {
+        "colorCode": 35,
+        "name": "インシグニアホワイト",
+        "url": "https://tamiyashop.jp/img/goods/L/82135.jpg"
+      },
+      {
+        "colorCode": 36,
+        "name": "ダークゴーストグレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/82136.jpg"
+      },
+      {
+        "colorCode": 37,
+        "name": "ライトゴーストグレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/82137.jpg"
       },
       {
         "colorCode": 38,
@@ -92,9 +717,29 @@
         "url": "https://tamiyashop.jp/img/goods/L/82138.jpg"
       },
       {
+        "colorCode": 39,
+        "name": "レーシングホワイト",
+        "url": "https://tamiyashop.jp/img/goods/L/82139.jpg"
+      },
+      {
         "colorCode": 40,
         "name": "メタリックブラック",
         "url": "https://tamiyashop.jp/img/goods/L/82140.jpg"
+      },
+      {
+        "colorCode": 41,
+        "name": "マイカブルー",
+        "url": "https://tamiyashop.jp/img/goods/L/82141.jpg"
+      },
+      {
+        "colorCode": 42,
+        "name": "マイカレッド",
+        "url": "https://tamiyashop.jp/img/goods/L/82142.jpg"
+      },
+      {
+        "colorCode": 43,
+        "name": "パールホワイト",
+        "url": "https://tamiyashop.jp/img/goods/L/82143.jpg"
       },
       {
         "colorCode": 44,
@@ -102,54 +747,209 @@
         "url": "https://tamiyashop.jp/img/goods/L/82144.jpg"
       },
       {
+        "colorCode": 45,
+        "name": "レーシングブルー",
+        "url": "https://tamiyashop.jp/img/goods/L/82145.jpg"
+      },
+      {
+        "colorCode": 46,
+        "name": "ピュアーメタリックレッド",
+        "url": "https://tamiyashop.jp/img/goods/L/82146.jpg"
+      },
+      {
+        "colorCode": 47,
+        "name": "パールブルー",
+        "url": "https://tamiyashop.jp/img/goods/L/82147.jpg"
+      },
+      {
         "colorCode": 48,
         "name": "スパークリングシルバー",
         "url": "https://tamiyashop.jp/img/goods/L/82148.jpg"
       },
       {
+        "colorCode": 49,
+        "name": "パールクリヤー",
+        "url": "https://tamiyashop.jp/img/goods/L/82149.jpg"
+      },
+      {
+        "colorCode": 50,
+        "name": "ブライトレッド",
+        "url": "https://tamiyashop.jp/img/goods/L/82150.jpg"
+      },
+      {
+        "colorCode": 51,
+        "name": "ピュアーオレンジ",
+        "url": "https://tamiyashop.jp/img/goods/L/82151.jpg"
+      },
+      {
         "colorCode": 52,
         "name": "クリヤーレッド",
-        "url": "https://tamiyashop.jp/img/goods/S/82152.jpg"
+        "url": "https://tamiyashop.jp/img/goods/L/82152.jpg"
       },
       {
         "colorCode": 53,
         "name": "クリヤーオレンジ",
-        "url": "https://tamiyashop.jp/img/goods/S/82153.jpg"
+        "url": "https://tamiyashop.jp/img/goods/L/82153.jpg"
+      },
+      {
+        "colorCode": 54,
+        "name": "ダークアイアン（履帯色）",
+        "url": "https://tamiyashop.jp/img/goods/L/82154.jpg"
+      },
+      {
+        "colorCode": 55,
+        "name": "ダークイエロー2（ドイツ陸軍）",
+        "url": "https://tamiyashop.jp/img/goods/L/82155.jpg"
+      },
+      {
+        "colorCode": 56,
+        "name": "ダークグリーン2（ドイツ陸軍）",
+        "url": "https://tamiyashop.jp/img/goods/L/82156.jpg"
+      },
+      {
+        "colorCode": 57,
+        "name": "レッドブラウン2（ドイツ陸軍）",
+        "url": "https://tamiyashop.jp/img/goods/L/82157.jpg"
+      },
+      {
+        "colorCode": 58,
+        "name": "NATOグリーン",
+        "url": "https://tamiyashop.jp/img/goods/L/82158.jpg"
+      },
+      {
+        "colorCode": 59,
+        "name": "NATOブラウン",
+        "url": "https://tamiyashop.jp/img/goods/L/82159.jpg"
       },
       {
         "colorCode": 60,
         "name": "NATOブラック",
-        "url": "https://tamiyashop.jp/img/goods/S/82160.jpg"
+        "url": "https://tamiyashop.jp/img/goods/L/82160.jpg"
+      },
+      {
+        "colorCode": 61,
+        "name": "メタリックグレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/82161.jpg"
       },
       {
         "colorCode": 62,
         "name": "チタンゴールド",
-        "url": "https://tamiyashop.jp/img/goods/S/82162.jpg"
+        "url": "https://tamiyashop.jp/img/goods/L/82162.jpg"
       },
       {
         "colorCode": 63,
         "name": "チタンシルバー",
-        "url": "https://tamiyashop.jp/img/goods/S/82163.jpg"
+        "url": "https://tamiyashop.jp/img/goods/L/82163.jpg"
+      },
+      {
+        "colorCode": 64,
+        "name": "OD色（陸上自衛隊）",
+        "url": "https://tamiyashop.jp/img/goods/L/82164.jpg"
+      },
+      {
+        "colorCode": 65,
+        "name": "ラバーブラック",
+        "url": "https://tamiyashop.jp/img/goods/L/82165.jpg"
+      },
+      {
+        "colorCode": 66,
+        "name": "フラットフレッシュ",
+        "url": "https://tamiyashop.jp/img/goods/L/82166.jpg"
       },
       {
         "colorCode": 67,
         "name": "スモーク",
-        "url": "https://tamiyashop.jp/img/goods/S/82167.jpg"
+        "url": "https://tamiyashop.jp/img/goods/L/82167.jpg"
+      },
+      {
+        "colorCode": 68,
+        "name": "クリヤーブルー",
+        "url": "https://tamiyashop.jp/img/goods/L/82168.jpg"
+      },
+      {
+        "colorCode": 69,
+        "name": "クリヤーイエロー",
+        "url": "https://tamiyashop.jp/img/goods/L/82169.jpg"
+      },
+      {
+        "colorCode": 70,
+        "name": "アルミシルバー",
+        "url": "https://tamiyashop.jp/img/goods/L/82170.jpg"
       },
       {
         "colorCode": 71,
         "name": "シャンパンゴールド",
-        "url": "https://tamiyashop.jp/img/goods/S/82171.jpg"
+        "url": "https://tamiyashop.jp/img/goods/L/82171.jpg"
+      },
+      {
+        "colorCode": 72,
+        "name": "マイカシルバー",
+        "url": "https://tamiyashop.jp/img/goods/L/82172.jpg"
+      },
+      {
+        "colorCode": 73,
+        "name": "カーキ",
+        "url": "https://tamiyashop.jp/img/goods/L/82173.jpg"
+      },
+      {
+        "colorCode": 74,
+        "name": "フラットアース",
+        "url": "https://tamiyashop.jp/img/goods/L/82174.jpg"
       },
       {
         "colorCode": 75,
         "name": "バフ",
-        "url": "https://tamiyashop.jp/img/goods/S/82175.jpg"
+        "url": "https://tamiyashop.jp/img/goods/L/82175.jpg"
+      },
+      {
+        "colorCode": 76,
+        "name": "イエローブラウン (DAK 1941～)",
+        "url": "https://tamiyashop.jp/img/goods/L/82176.jpg"
+      },
+      {
+        "colorCode": 77,
+        "name": "ライトブラウン (DAK 1942～)",
+        "url": "https://tamiyashop.jp/img/goods/L/82177.jpg"
+      },
+      {
+        "colorCode": 78,
+        "name": "フラットブルー",
+        "url": "https://tamiyashop.jp/img/goods/L/82178.jpg"
       },
       {
         "colorCode": 79,
         "name": "フラットレッド",
-        "url": "https://tamiyashop.jp/img/goods/S/82179.jpg"
+        "url": "https://tamiyashop.jp/img/goods/L/82179.jpg"
+      },
+      {
+        "colorCode": 80,
+        "name": "フラットイエロー",
+        "url": "https://tamiyashop.jp/img/goods/L/82180.jpg"
+      },
+      {
+        "colorCode": 81,
+        "name": "調色用ブルー",
+        "url": "https://tamiyashop.jp/img/goods/L/82181.jpg"
+      },
+      {
+        "colorCode": 82,
+        "name": "調色用レッド",
+        "url": "https://tamiyashop.jp/img/goods/L/82182.jpg"
+      },
+      {
+        "colorCode": 83,
+        "name": "調色用イエロー",
+        "url": "https://tamiyashop.jp/img/goods/L/82183.jpg"
+      },
+      {
+        "colorCode": 84,
+        "name": "カモフラージュグレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/82184.jpg"
+      },
+      {
+        "colorCode": 85,
+        "name": "ミディアムエアーグレイ",
+        "url": "https://tamiyashop.jp/img/goods/L/82185.jpg"
       }
     ]
   }
